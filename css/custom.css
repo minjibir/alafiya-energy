@@ -1,0 +1,16 @@
+.text-primary {
+  color: #29ca8e;
+}
+
+.text-light {
+  color: white;
+}
+
+.bg-primary {
+  background-color: #29ca8e;
+  color: white;
+}
+
+.border-primary {
+  border-color: #29ca8e;
+}

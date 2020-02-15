@@ -1,0 +1,28 @@
+$primary: rgb(3, 107, 90);
+
+$theme-colors: (
+   "primary": $primary
+);
+
+@import "../node_modules/bootswatch/dist/lux/variables";
+@import "../node_modules/bootstrap/scss/bootstrap.scss";
+@import "../node_modules/bootswatch/dist/lux/bootswatch";
+
+.bg-primary {
+   background-color: $primary !important;
+}
+
+body {
+   padding-top: 57px;
+}
+
+.form-control:focus {
+   border: 1px solid $primary;
+}
+
+.hero {
+   background-image: url('../assets/img/hero.jpg');
+   background-repeat: no-repeat;
+   background-attachment: fixed;
+   background-size: cover;
+}
